@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs, build
+logs/
+*.log
+coverage/
+dist/
+build/
+
+claimsSubmissionApisTest(3.150.95.238).txt
+claimsSubmissionApisTestResponse(withoutFacilityField).txt

@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  mlmg-backend:
+    image: claim_submission_backend
+    restart: always
+    build:
+      context: D:/claimsSysBackend 1/claims_backend
+      dockerfile: Dockerfile
+    volumes:
+      - /home/dockerdata/konaPayments/dockervolumes/backend/logs:/process/logs
+    ports:
+      - 8095:8095
+    container_name: claim_submission_backend
+
+  # kona-payments-frontend:
+  #   image: kona_payments_frontend
+  #   restart: always
+  #   build:s
+  #     context: /Users/Projects/konarcm/kona_payments_frontend
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - 5000:3000   
+  #   container_name: kona_payments_frontend
+
+  
