@@ -3,7 +3,7 @@ Grelin Core Claims Generator is a backend engine that automates creation, valida
 
 # Key Features
 
-Automated claim status checks
+Automated claim generator checks
 
 Integration with clearinghouses/payers
 
@@ -29,4 +29,4 @@ Winston – Structured logging
 
 # Purpose
 
-Streamlines claim tracking, reduces manual follow-up, and provides accurate, real-time visibility into claim status for healthcare workflows.
+Streamlines claim generations, reduces manual follow-up, and provides accurate, real-time visibility into claim generation for healthcare workflows.
